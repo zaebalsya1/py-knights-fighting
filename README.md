@@ -102,7 +102,7 @@ So, your task will be next:
 - Split functionality to different `modules` and `packages` as you think will be the most meaningful.
 - `Refactor` existing logic, if needed.
 - Be as `creative` as possible - in this task you are not obliged to write everything by our scenario.
-- Use classes if you like classes, and use functions, if you like functions.
+- Use classes if you like classes (preferable), and use functions, if you like functions (functions also ok here).
 - Make sure, that your final code pass `flake8` and `pytest`
 
 Obligations:

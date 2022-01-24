@@ -86,7 +86,7 @@ KNIGHTS = {
 }
 
 
-def main(knightsConfig: dict):
+def battle(knightsConfig):
     # BATTLE PREPARATIONS:
 
     # lancelot
@@ -211,4 +211,4 @@ def main(knightsConfig: dict):
     }
 
 
-print(main(KNIGHTS))
+print(battle(KNIGHTS))

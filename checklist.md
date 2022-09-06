@@ -151,6 +151,9 @@ Bad example:
 knightsPreparation = "we are preparing"
 ```
 
+5. Separate your code into different modules and/or packages. 
+It is a good idea when you are working with a big project.
+
 ## Clean Code
 
 Add comments, prints, and functions to check your solution when you write your code. 

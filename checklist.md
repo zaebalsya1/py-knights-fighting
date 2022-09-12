@@ -7,7 +7,7 @@
 Good example:
 
 ```python
-def check_temperature(temperature):
+def check_temperature(temperature: int) -> int:
     if temperature <= 10:
         temperature = 10
 
@@ -110,14 +110,14 @@ citizens_list.append(Citizen(name=citizens["names"][1], surname=citizens["surnam
 Good example:
 
 ```python
-def get_full_name(first_name: str, last_name: str):
+def get_full_name(first_name: str, last_name: str) -> str:
     return f"{first_name} {last_name}"
 ```
 
 Bad example:
 
 ```python
-def get_full_name(x: str, y: str):
+def get_full_name(x: str, y: str) -> str:
     return f"{x} {y}"
 ```
 
@@ -126,7 +126,7 @@ def get_full_name(x: str, y: str):
 Good example:
 
 ```python
-def multiply_by_2(number: int):
+def multiply_by_2(number: int) -> Union[int, float]:
     return number * 2
 ```
 

@@ -152,10 +152,11 @@ Good example:
 knights_preparation = "we are preparing"
 ```
 
-Bad example:
+Bad examples:
 
 ```python
 knightsPreparation = "we are preparing"
+KnightsPreparation = "we are preparing"
 ```
 
 5. Separate your code into different modules and/or packages. 

@@ -13,21 +13,21 @@ def check_temperature(temperature: int) -> int:
 
     return temperature
 
-morning_temprature = 9
+morning_temperature = 9
 evening_temperature = 22
 
-check_temperature(morning_temprature)
-check_temperature(evening_temperature)
+print(check_temperature(morning_temperature))  # 10
+print(check_temperature(evening_temperature)) # 22
 ```
 
 Bad example:
 
 ```python
-morning_temprature = 9
+morning_temperature = 9
 evening_temperature = 22
 
-if morning_temprature <= 10:
-    morning_temprature = 10
+if morning_temperature <= 10:
+    morning_temperature = 10
 
 if evening_temperature <= 10:
     evening_temperature = 10
@@ -70,7 +70,10 @@ if "ironing_shirts" in home_chores:
 Good example:
 
 ```python
-citizens = {"names": ["Dima", "Dania"], "surnames": ["Smith", "Green"]}
+citizens = {
+    "names": ["Dima", "Dania"], 
+    "surnames": ["Smith", "Green"]
+}
 
 citizens_list = []
 
@@ -88,7 +91,11 @@ for i in range(len(citizens)):
 Bad example:
 
 ```python
-citizens = {"names": ["Dima", "Dania"], "surnames": ["Smith", "Green"]}
+citizens = {
+    "names": ["Dima", "Dania"], 
+    "surnames": ["Smith", "Green"]
+}
+
 citizens_list = []
 
 
@@ -118,7 +125,7 @@ Bad example:
 
 ```python
 def get_full_name(x: str, y: str) -> str:
-    return f"{x} {y}"
+    return f'{x} {y}'
 ```
 
 3. Use annotation, it is a good practice:
@@ -126,7 +133,7 @@ def get_full_name(x: str, y: str) -> str:
 Good example:
 
 ```python
-def multiply_by_2(number: int) -> Union[int, float]:
+def multiply_by_2(number: int) -> int:
     return number * 2
 ```
 

@@ -2,7 +2,7 @@
 
 ## Don`t Repeat Yourself
 
-1. Create functions when needed:
+1. Create functions when needed.
 
 Good example:
 
@@ -33,7 +33,7 @@ if evening_temperature <= 10:
     evening_temperature = 10
 ```
 
-2. Use for loops:
+2. Use the `for` loops.
 
 Good example:
 
@@ -112,7 +112,20 @@ citizens_list.append(Citizen(name=citizens["names"][1], surname=citizens["surnam
 ## Code Style
 
 1. Make sure you use the double quotes everywhere.
-2. Use descriptive and correct variable names:
+
+Good example:
+
+```python
+greetings = "Hi, mate!"
+```
+
+Bad example:
+
+```python
+greetings = 'Hi, mate!'
+```
+
+2. Use descriptive and correct variable names.
 
 Good example:
 
@@ -128,7 +141,7 @@ def get_full_name(x: str, y: str) -> str:
     return f'{x} {y}'
 ```
 
-3. Use annotation, it is a good practice:
+3. Use annotation, it is a good practice.
 
 Good example:
 
@@ -144,7 +157,7 @@ def multiply_by_2(number):
     return number * 2
 ```
 
-4. Use `snake_case`:
+4. Use the `snake_case`.
 
 Good example:
 
